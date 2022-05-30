@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dosis&family=Hubballi&family=Island+Moments&family=Pacifico&display=swap");
+
+body{
+    background-color: #54c3ef;
+}
+#quizHead{
+    color:#fad744;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 2px #2b3252;
+   font-family: "Caveat Brush", Cursive;
+}
+
+
+#quizSection{
+  width: 50%;
+  height: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #2b3252;
+  color: #fad744;
+  border-radius: 6px;
+  padding: 16px;
+  padding-top: 30px;
+  padding-left: 20px;
+  line-height: 40px;
+}
+input,
+span {
+  margin: 13px 0;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+
+#score{
+    background-color: white;
+    width: 120px;
+    border-radius: 5px;
+    height: 180px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: sticky;
+   bottom: 35%;
+    left: 80%;
+
+   
+}
+/* #Score h3 {
+   
+    line-height: 40px;
+} */
+#score {
+  font-weight: 600;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+
+.input-div{
+  border: 1px solid white;
+}
+
+#btn{
+    color: black;
+    background-color: #fad744;
+    align-items: center;
+    border:none;
+    cursor: pointer;
+    min-width: 20%;
+    font-weight: 750;
+    width: 10%;
+    height: 10%;
+    padding: 10px;
+    border-radius:2px;
+    margin-left: 35%;
+    margin-bottom: 2%;
+}
+
+.quizQuestion{
+  border-bottom: 2px 2px solid yellow;
+}
